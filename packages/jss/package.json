@@ -1,7 +1,7 @@
 {
-  "name": "jss",
+  "name": "@odysseyprime/jss",
   "description": "A lib for generating Style Sheets with JavaScript.",
-  "version": "10.10.0",
+  "version": "10.10.0-prime",
   "license": "MIT",
   "homepage": "https://cssinjs.org/",
   "main": "dist/jss.cjs.js",
@@ -12,7 +12,7 @@
   "author": "JSS Team",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cssinjs/jss.git",
+    "url": "https://github.com/OdysseyPrime/jss.git",
     "directory": "packages/jss"
   },
   "bugs": {
@@ -47,5 +47,8 @@
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/jss"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
