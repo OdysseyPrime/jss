@@ -1,7 +1,7 @@
 {
-  "name": "react-jss",
+  "name": "@odysseyprime/react-jss",
   "description": "JSS integration with React",
-  "version": "10.10.0",
+  "version": "10.10.0-prime",
   "license": "MIT",
   "main": "dist/react-jss.cjs.js",
   "module": "dist/react-jss.esm.js",
@@ -12,7 +12,7 @@
   "author": "JSS Team",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cssinjs/jss.git",
+    "url": "https://github.com/OdysseyPrime/jss.git",
     "directory": "packages/react-jss"
   },
   "bugs": {
@@ -45,7 +45,7 @@
     "css-jss": "10.10.0",
     "hoist-non-react-statics": "^3.2.0",
     "is-in-browser": "^1.1.3",
-    "jss": "10.10.0",
+    "jss": "npm:@odysseyprime/jss@10.10.0-prime",
     "jss-preset-default": "10.10.0",
     "prop-types": "^15.6.0",
     "shallow-equal": "^1.2.0",
@@ -56,5 +56,8 @@
     "@types/react": "^16.8.16",
     "react-dom": "^16.8.6",
     "styled-system": "4.2.0-0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
